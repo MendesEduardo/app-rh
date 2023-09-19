@@ -4,7 +4,18 @@
 
 @layer base {
   body {
-    @apply bg-gray-600;
+    @apply bg-blue-300;
+  }
+  body::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-blue-700;
+  }
+
+  body::-webkit-scrollbar-track {
+    @apply bg-blue-500;
   }
 }
 @layer components {
@@ -15,6 +26,9 @@
     @apply mb-5 p-2 w-4/5 bg-blue-700 rounded-xl text-white font-bold outline-none hover:bg-blue-800;
   }
   .dream-machine-blocoMenu {
-    @apply bg-white max-h-screen m-auto my-auto w-[60rem] rounded-2xl;
+    @apply bg-white m-auto w-[60rem] rounded-2xl;
+  }
+  .dream-machine-buttonOpen {
+    @apply w-full bg-blue-100 py-3 hover:bg-blue-300;
   }
 }
