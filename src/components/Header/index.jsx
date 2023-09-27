@@ -12,7 +12,7 @@ export default function Header({ user, onLogout }) {
   };
 
   return (
-    <header className="bg-white flex h-14 justify-between items-center px-16 mb-14 ">
+    <header className="bg-white flex h-14 justify-between items-center px-16 mb-8 ">
       <NavMenu to="/" customStyle="cursor-pointer">
         <img src={Logo} className="h-14" alt="Logo Dream Machine" />
       </NavMenu>
@@ -24,19 +24,23 @@ export default function Header({ user, onLogout }) {
           <img src={Perfil} className="h-12 cursor-pointer" alt={user.name} />
           <span className="font-bold">{user?.name}</span>
           {isMenuOpen && (
-            <div className="absolute top-12 right-0 w-24 text-center shadow-lg rounded-lg">
-              <button
-                className="dream-machine-buttonOpen rounded-t-lg"
-                onClick={onLogout}
-              >
-                Deslogar
-              </button>
-              <button
-                className=" dream-machine-buttonOpen border-t-2 border-blue-400 rounded-b-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Fechar
-              </button>
+            <div className="absolute top-12 right-0 w-28 border text-center shadow-lg rounded-lg">
+              <div className="bg-white p-2 rounded-lg flex flex-col gap-1 font-bold">
+                <button className="dream-machine-buttonOpen" onClick={onLogout}>
+                  Deslogar
+                </button>
+                <button
+                  className=" dream-machine-buttonOpen"
+                >
+                  Help
+                </button>{" "}
+                <button
+                  className=" dream-machine-buttonOpen"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Fechar
+                </button>
+              </div>
             </div>
           )}
         </div>

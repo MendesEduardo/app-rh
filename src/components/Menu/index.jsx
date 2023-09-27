@@ -2,7 +2,7 @@ import NavMenu from "./NavMenu";
 
 export default function Menu({ user }) {
   return (
-    <section className="dream-machine-blocoMenu p-5 text-center h-[26rem]">
+    <section className="dream-machine-blocoMenu p-5 text-center h-[30rem]">
       <div className="flex gap-5">
         <NavMenu to="/dadoscadastrais">Dados Cadastrais</NavMenu>
         <NavMenu to="/pagamentos">Pagamentos</NavMenu>

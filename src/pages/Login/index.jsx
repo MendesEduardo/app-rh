@@ -11,7 +11,7 @@ export default function Login({ onSubmit }) {
     const name = e.target[0].value;
     const senha = e.target[1].value;
 
-    if (senha === "Gohan007") {
+    if (senha === "22") {
       onSubmit({ name, senha });
       setsenhaErrada("");
       setSeSenhaForErrada(false);

@@ -1,0 +1,65 @@
+{
+  "identificacao": [
+    {
+      "status": "Ativo",
+      "nome": "Julia Torres",
+      "nomeSocial": "Gatinha da Norte",
+      "matricula": "X-156 2B",
+      "email": "jugatinha002@gmail.com",
+      "nascimento": "10/05/1998",
+      "sexo": "Feminino",
+      "estadoCivil": "Solteira",
+      "telefone1": "11 9 4002-8922",
+      "telefone2": "11 9 4002-8922",
+      "telefone3": "11 9 4002-8922"
+    }
+  ],
+  "endereco": [
+    {
+      "cep": "000000-000",
+      "rua": "Cecilia Meireles",
+      "complemento": "Ap 5 Bloco D",
+      "bairro": "Centro",
+      "cidade": "Vitória",
+      "estado": "Espirito Santos",
+      "pais": "Brasil"
+    }
+  ],
+  "documentacao": [
+    {
+      "numeroCt": "000000",
+      "serie": "157x148",
+      "ufCt": "ES",
+      "dataEmissaoCt": "11/09/2021",
+      "numeroRg": "000000.00",
+      "orgaoEmissor": "SSCP",
+      "dataEmissao": "24/05/2019",
+      "ufRg": "ES",
+      "cpf": "666.777.888-99",
+      "cnh": "000 00 00000",
+      "pispasep": "0000 000 00",
+      "admissao": "11/12/2021",
+      "nacionalidade": "Mexicana",
+      "cbo": "1525-8",
+      "depto": "0001",
+      "setor": "265",
+      "fi": "056"
+    }
+  ],
+  "fincanceiro": [
+    {
+      "salario": "R$ 2.506,12",
+      "tipo": "Mensal",
+      "cargaHoraria": "210 horas",
+      "horario": "23:30 às 06:30",
+      "turno": "Noturno",
+      "periculosidade": "Perigosíssimo",
+      "vr": "R$ 500,12",
+      "vt": "R$ 168,30",
+      "medico": "10%",
+      "dias": "22 dias",
+      "vtPorDia": "R$ 15,30",
+      "Odontologico": "10%"
+    }
+  ]
+}

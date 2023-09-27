@@ -29,6 +29,9 @@
     @apply bg-white m-auto w-[60rem] rounded-2xl;
   }
   .dream-machine-buttonOpen {
-    @apply w-full bg-blue-100 py-3 hover:bg-blue-300;
+    @apply w-full bg-blue-600 py-3 rounded-xl hover:bg-blue-500;
+  }
+.dream-machine-infos {
+    @apply w-full bg-black h-14 rounded-xl;
   }
 }
